@@ -1,0 +1,5 @@
+my_list=list(name = "Alice", age = 30, hobbies = c("Cycling", "Art", "Music"))
+print(my_list$hobbies)
+my_df=data.frame(Name = c("Alice", "Bob"), Age = c(25, 30))
+my_df$Occupation=ifelse(my_df$Name == "Alice", "Doctor", "Engineer")
+print(my_df)

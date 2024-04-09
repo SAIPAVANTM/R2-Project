@@ -1,0 +1,5 @@
+colors = c("red", "blue", "green", "blue", "red", "green", "green", "red")
+f_colors = factor(colors)
+print(levels(f_colors))
+f_colors = factor(f_colors, levels = c("green", "blue", "red"))
+print(levels(f_colors))

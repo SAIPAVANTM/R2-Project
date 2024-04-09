@@ -1,0 +1,5 @@
+num = c(1, 2, 3)
+char = c("a", "b", "c")
+mat = matrix(1:4, nrow = 2)
+my_list = list(num, char, mat)
+print(my_list)
